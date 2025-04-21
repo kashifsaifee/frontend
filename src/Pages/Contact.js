@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-<<<<<<< HEAD
 import axios from 'axios';
 import { TextField, Button, Typography } from '@mui/material';
-=======
 import {
   Box,
   Grid,
@@ -13,7 +11,6 @@ import {
   IconButton,
 } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
->>>>>>> 14f9438bc6d71540310f8d5314c7aef96fda3f9e
 
 const Contact = () => {
   const [formData, setFormData] = useState({
